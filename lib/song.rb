@@ -8,6 +8,8 @@ class Song
   end
 
   @@count = 0
+  @@artists = 0
+  @@genres = 0
 
   def self.count
     @@count
