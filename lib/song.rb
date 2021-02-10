@@ -16,9 +16,4 @@ class Song
     @song_artist = artist
     @song_genre = genre
   end
-
-  def name
-    @song_name = name
-  end
-
 end
