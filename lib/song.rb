@@ -11,6 +11,12 @@ class Song
     @@song_count += 1
   end
 
-end
+  def initialize(name)
+    @song_name = name
+  end
 
-  
+  def name
+    @song_name = name
+  end
+
+end
