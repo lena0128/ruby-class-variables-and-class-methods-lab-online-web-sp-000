@@ -13,8 +13,4 @@ class Song
     @@count
   end
 
-  def initialize
-    @@count += 1
-  end
-
 end
